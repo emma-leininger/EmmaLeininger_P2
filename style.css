@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+}
+img {position:absolute;
+}
+
+.bluerectangle{
+  position: absolute;
+  left: 583px;
+  top: 399px;
+  opacity: 0;
+  
+}
+
+.yellowrectangle{
+  position: absolute;
+  left: 1683px;
+  top: 970px;
+  opacity: 0;
+}
+
+
+.agentsmith{
+  position: absolute;
+  left: 699px;
+  top: 384px;
+  opacity: 0;
+  transition: 0s;
+  
+}
+
+.agentsmith:hover{
+  position: absolute;
+  left: 699px;
+  top: 384px;
+  z-index: 5;
+  opacity: 1
+}
+
+
+.player{
+	position: absolute;
+	left: 820px;
+	top: 150px;
+	z-index: 100000;
+	
+}
+
+.button{
+	position: absolute;
+	left: 855px;
+	top: 210px;
+	z-index:900px;
+	font-size: 20px;
+}
+
+.glitch1{
+	position: absolute;
+}
+
+
+.cookies{
+	z-index: 10000px;
+}
+
+.whiterectangle{
+  position: absolute;
+  left: 165px;
+  top: 192px;
+  z-index: 3;
+  opacity: 0;
+}
+
+.player2{
+	position: absolute;
+	left:200px;
+	top: 10px;
+	z-index: 1000000000000000000000000px;
+}
+

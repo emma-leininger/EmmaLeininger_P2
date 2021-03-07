@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cyberspace</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="player">
+<audio controls>
+<source src="Audio/How internet advertisers read your mind The Economist.mp3" type="audio/mpeg">
+</audio>
+</div>
+	
+<img src="JPEGS/old computer1.jpg" class="computer1" alt=""/> 
+
+
+<img src="JPEGS/Rectangle1.png" class="bluerectangle" alt=""/> 
+
+<img src="JPEGS/agent smith.png" class="agentsmith" 
+	 onMouseOver="this.src='JPEGS/agent smith.png'"
+	 onMouseOut="this.src='JPEGS/old computer1.jpg'"
+	 alt=""/>
+	
+<audio id="ButtonClick">
+  <source src="Audio/clipped tech failure - 3_4_21, 9.15 AM.m4a">
+</audio>
+
+<img src="JPEGS/Rectangle2.png" class="yellowrectangle" onclick="playAudio()" alt=""/> 
+
+<script>
+  var x = document.getElementById("ButtonClick");
+
+  function playAudio() {
+    x.play();
+  }
+
+</script>
+	
+<button onclick="playAudio()">
+Click 2 Play
+</button>
+
+<div class="button">	
+<button onclick="openWin();playAudio()">
+Click if you are over 18 years of age
+</button>
+
+<script>
+function openWin(){
+
+myWindow = window.open("Glitch1.html", "", "left=50px, top=250px, width=650px, height=650px")
+
+}
+</script>
+	</div>
+
+	
+
+	
+</body>
+</html>
